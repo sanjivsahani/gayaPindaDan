@@ -5,7 +5,9 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #444444;
+  color: #021257;
+  background-color: rgb(246, 189, 84);
+ font-weight: 600;
 }
 
 a {
@@ -333,7 +335,7 @@ border-bottom:3px solid #18d26e;
 #hero {
   width: 100%;
   height: 80vh;
-  background:rgb(255, 197, 88);
+  background:rgb(255, 179, 37);
 }
 #hero .container {
   padding-top: 72px;
@@ -361,10 +363,11 @@ border-bottom:3px solid #18d26e;
   transition: 0.5s;
   margin: 10px 0 0 0;
   color: #fff;
-  background: #47b2e4;
+  background: #de6525;
 }
 #hero .btn-get-started:hover {
-  background: #209dd8;
+  background: #fff711;
+  color: rgb(255, 119, 0);
 }
 #hero .btn-watch-video {
   font-size: 16px;
@@ -374,6 +377,13 @@ border-bottom:3px solid #18d26e;
   margin: 10px 0 0 25px;
   color: #fff;
   line-height: 1;
+ 
+}
+#hero .btn-watch-video:hover{
+  border-radius: 20px;
+background-color: #f1ec85;
+padding: 10px;
+color: #021257;
 }
 #hero .btn-watch-video i {
   line-height: 0;
@@ -972,7 +982,7 @@ section {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 20px;
-  color: #37517e;
+  color: #f34100;
 }
 .team .member span {
   display: block;
